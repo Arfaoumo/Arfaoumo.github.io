@@ -1,307 +1,176 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="it">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
-    <title>Mohamed Arfaoui | Full Stack Web Developer & Software Engineer</title>
-
+    <title>Mohamed Arfaoui | Sviluppatore Web Full Stack e Ingegnere del Software</title>
     <meta name="description"
-        content="Discover the portfolio of Mohamed Arfaoui, a French Full Stack Web Developer and IT Student based in Annecy. Specializing in Next.js, React, C# .NET, and modern web architectures.">
-
-
+        content="Scopri il portfolio di Mohamed Arfaoui, Sviluppatore Web Full Stack e studente di informatica con sede ad Annecy. Specializzato in Next.js, React, C# .NET e architetture web moderne.">
 
     <!-- SEO : Core Web Vitals (Préchargement LCP) -->
-
-
-
-
+    <link rel="preload" as="image" href="../image/me.jpg">
 
     <!-- SEO : Stratégie Multilingue -->
-
     <link rel="alternate" hreflang="en" href="https://arfaoumo.github.io/" />
-
     <link rel="alternate" hreflang="fr" href="https://arfaoumo.github.io/fr/" />
-
     <link rel="alternate" hreflang="es" href="https://arfaoumo.github.io/es/" />
-
     <link rel="alternate" hreflang="it" href="https://arfaoumo.github.io/it/" />
-
     <link rel="alternate" hreflang="x-default" href="https://arfaoumo.github.io/" />
 
-
-
     <meta name="author" content="Mohamed Arfaoui">
-
     <meta name="robots" content="index, follow">
-
-    <link rel="canonical" href="https://arfaoumo.github.io/">
-
-    <link rel="icon" type="image/png" href="image/favicon.ico">
-
-
+    <link rel="canonical" href="https://arfaoumo.github.io/it/">
+    <link rel="icon" type="image/png" href="../image/favicon.ico">
 
     <meta property="og:type" content="website">
-
-    <meta property="og:url" content="https://arfaoumo.github.io/">
-
-    <meta property="og:title" content="Mohamed Arfaoui | Full Stack Web Developer">
-
+    <meta property="og:url" content="https://arfaoumo.github.io/it/">
+    <meta property="og:title" content="Mohamed Arfaoui | Sviluppatore Web Full Stack">
     <meta property="og:description"
-        content="Explore the portfolio and projects of Mohamed Arfaoui, a Full Stack Developer specializing in React, Next.js, and C# .NET.">
-
+        content="Scopri i progetti di Mohamed Arfaoui, Sviluppatore Full Stack specializzato in React, Next.js e C# .NET.">
     <meta property="og:image" content="https://arfaoumo.github.io/image/portfolio-screenshot.jpg">
-
-    <meta property="og:site_name" content="Mohamed Arfaoui Portfolio">
-
-    <meta property="og:locale" content="en_US">
-
-    <meta property="og:locale:alternate" content="fr_FR">
-
-
+    <meta property="og:site_name" content="Portfolio Mohamed Arfaoui">
+    <meta property="og:locale" content="it_IT">
 
     <meta name="twitter:card" content="summary_large_image">
-
-    <meta name="twitter:url" content="https://arfaoumo.github.io/">
-
-    <meta name="twitter:title" content="Mohamed Arfaoui | Full Stack Web Developer">
-
+    <meta name="twitter:url" content="https://arfaoumo.github.io/it/">
+    <meta name="twitter:title" content="Mohamed Arfaoui | Sviluppatore Web Full Stack">
     <meta name="twitter:description"
-        content="Explore the portfolio and projects of Mohamed Arfaoui, a Full Stack Developer specializing in React, Next.js, and C# .NET.">
-
+        content="Scopri i progetti di Mohamed Arfaoui, Sviluppatore Full Stack specializzato in React, Next.js e C# .NET.">
     <meta name="twitter:image" content="https://arfaoumo.github.io/image/portfolio-screenshot.jpg">
 
-
-
     <script type="application/ld+json">
-
     {
-
       "@context": "https://schema.org/",
-
       "@type": "Person",
-
       "name": "Mohamed Arfaoui",
-
-      "jobTitle": "Full Stack Web Developer",
-
-      "url": "https://arfaoumo.github.io/",
-
+      "jobTitle": "Sviluppatore Web Full Stack",
+      "url": "https://arfaoumo.github.io/it/",
       "image": "https://arfaoumo.github.io/image/me.jpg",
-
       "sameAs": [
-
         "https://www.linkedin.com/in/mohamed-y-arfaoui",
-
         "https://github.com/Arfaoumo",
-
         "https://www.github.com/Arfaoumo"
-
       ],
-
       "alumniOf": {
-
         "@type": "CollegeOrUniversity",
-
         "name": "IUT Annecy"
-
       },
-
       "address": {
-
         "@type": "PostalAddress",
-
         "addressLocality": "Annecy",
-
         "addressCountry": "France"
-
       },
-
-      "knowsAbout": ["Web Development", "C#", "Next.js", "React", "PostgreSQL", "PHP", "Full Stack Development"]
-
+      "knowsAbout": ["Sviluppo Web", "C#", "Next.js", "React", "PostgreSQL", "PHP", "Full Stack"]
     }
-
     </script>
-
-
 
     <link
         href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@700;800&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link rel="stylesheet" href="style.css">
-
+    <!-- Lien vers le CSS à la racine -->
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-
-
     <header class="main-header">
-
         <div class="header-inner">
-
             <a href="#home" class="logo brutal-box bg-white text-black"><i class="fas fa-terminal text-blue"></i>
                 MOHAMED.A</a>
-
             <nav>
-
                 <ul class="nav-list">
-
-                    <li><a href="#about" class="brutal-link">About</a></li>
-
-                    <li><a href="#journey" class="brutal-link">Experience</a></li>
-
-                    <li><a href="#projects" class="brutal-link">Work</a></li>
-
+                    <li><a href="#about" class="brutal-link">Su di me</a></li>
+                    <li><a href="#journey" class="brutal-link">Esperienza</a></li>
+                    <li><a href="#projects" class="brutal-link">Progetti</a></li>
                 </ul>
-
             </nav>
 
-
-
-            <!-- Menu déroulant des langues -->
-
             <div class="lang-dropdown hide-mobile">
-
                 <button class="brutal-box bg-white text-black lang-btn">
-
-                    EN <i class="fas fa-caret-down"></i>
-
+                    IT <i class="fas fa-caret-down"></i>
                 </button>
-
                 <div class="lang-menu brutal-card bg-white">
-                    <a href="index.html" class="lang-item">English</a>
-                    <a href="fr/index.html" class="lang-item">Français</a>
-                    <a href="it/index.html" class="lang-item">Italiano</a>
+                    <a href="../index.html" class="lang-item">English</a>
+                    <a href="../fr/index.html" class="lang-item">Français</a>
+                    <a href="../it/index.html" class="lang-item">Italiano</a>
                 </div>
-
             </div>
 
-
-
-            <button id="theme-switch" class="theme-switch brutal-box" aria-label="Toggle theme">
-
+            <button id="theme-switch" class="theme-switch brutal-box" aria-label="Cambia tema">
                 <i class="fas fa-moon"></i>
-
             </button>
-
             <a href="#contact" class="brutal-btn bg-yellow text-black hide-mobile"><i class="fas fa-paper-plane"></i>
-                LET'S TALK</a>
-
+                PARLIAMO</a>
             <button class="menu-toggle brutal-box bg-white text-black" id="mobile-menu" aria-label="Menu">
-
                 <i class="fas fa-bars"></i>
-
             </button>
-
         </div>
-
     </header>
 
-
-
     <main>
-
         <section id="home" class="hero section-padding">
-
             <div class="container hero-container">
-
                 <div class="hero-content reveal">
 
+
                     <h1 class="hero-title">
-
-                        <span class="sr-only">Mohamed Arfaoui - Full Stack Web Developer & Software Engineer. </span>
-
-                        Building <span class="bg-yellow text-black brutal-highlight">Scalable</span><br>Web Apps.
-
+                        <span class="sr-only">Mohamed Arfaoui - Sviluppatore Web Full Stack e Ingegnere del Software.
+                        </span>
+                        Creazione di Web App <span class="bg-yellow text-black brutal-highlight">Scalabili</span>.
                     </h1>
 
-
-
-                    <p class="hero-desc">I'm Mohamed Arfaoui, an IT Student specializing in Full Stack development. I
-                        build seamless digital experiences with modern tech.</p>
-
+                    <p class="hero-desc">Sono Mohamed Arfaoui, studente di informatica specializzato nello sviluppo Full
+                        Stack. Costruisco esperienze digitali fluide con tecnologie moderne.</p>
                     <div class="hero-actions">
-
                         <a href="#projects" class="brutal-btn bg-yellow text-black action-btn"><i
-                                class="fas fa-rocket"></i> EXPLORE PROJECTS</a>
-
-                        <a href="image/CV_Mohamed_Arfaoui.pdf" download="CV_Mohamed_Arfaoui.pdf"
-                            class="brutal-btn bg-white text-black action-btn"><i class="fas fa-download"></i> RESUME</a>
-
+                                class="fas fa-rocket"></i> ESPLORA I PROGETTI</a>
+                        <a href="../image/CV_Mohamed_Arfaoui.pdf" download="CV_Mohamed_Arfaoui.pdf"
+                            class="brutal-btn bg-white text-black action-btn"><i class="fas fa-download"></i>
+                            CURRICULUM</a>
                     </div>
-
                 </div>
-
                 <div class="hero-visual reveal delay-1">
-
                     <div class="brutal-card bg-blue decorative-card">
-
                         <!-- Remplacement de l'image par le sticker -->
-
                         <div class="sticker-wrapper">
-
-                            <img src="image/mohamed_avatar.png" alt="Mohamed Arfaoui - Sticker Pop"
+                            <img src="../image/mohamed_avatar.png" alt="Mohamed Arfaoui - Sticker Pop"
                                 class="hero-img-sticker">
-
                         </div>
-
                         <div class="floating-badge brutal-badge bg-white text-black"><i
                                 class="fas fa-hand-sparkles text-yellow"></i> Hello World!</div>
-
                         <div class="floating-badge-2 brutal-badge bg-yellow text-black"><i
                                 class="fas fa-code text-blue"></i> Next.js</div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-
-
         <section id="about" class="about section-padding bg-light">
-
             <div class="container">
-
-                <h2 class="section-title reveal"><i class="fas fa-user-astronaut"></i> ABOUT ME.</h2>
-
-
+                <h2 class="section-title reveal"><i class="fas fa-user-astronaut"></i> SU DI ME.</h2>
 
                 <div class="about-grid">
-
                     <div class="brutal-card bg-white reveal">
-
-                        <h3 class="card-title bg-blue text-white"><i class="fas fa-address-card"></i> The Dev</h3>
-
+                        <h3 class="card-title bg-blue text-white"><i class="fas fa-address-card"></i> Lo Sviluppatore
+                        </h3>
                         <div class="card-inner">
-                            <p>I am an <strong>IT Student in my third year (BUT 3)</strong> at IUT Annecy, currently
-                                searching for a <strong>12-month alternance</strong> starting September 2026 as a Full
-                                Stack Web Developer. I master modern frameworks and design robust architectures.</p>
-                            <p class="mt-2">Whether I'm coding backend logic in <strong>C# / .NET</strong>, setting up
-                                databases in <strong>PostgreSQL/MongoDB</strong>, or building interactive frontends, I
-                                approach every problem with logic and precision.</p>
+                            <p>Sono uno <strong>studente di informatica al terzo anno (BUT 3)</strong> all'IUT di
+                                Annecy, attualmente alla ricerca di un <strong>apprendistato (alternance) di 12
+                                    mesi</strong> a partire da settembre 2026 come Sviluppatore Web Full Stack. Dedico
+                                il mio tempo a padroneggiare i framework moderni e a progettare architetture software
+                                robuste.</p>
+                            <p class="mt-2">Che si tratti di codificare la logica backend in <strong>C# / .NET</strong>,
+                                configurare database PostgreSQL/MongoDB o creare frontend interattivi, affronto ogni
+                                problema con logica e precisione.</p>
                         </div>
-
                     </div>
 
-
-
                     <div class="brutal-card bg-white reveal delay-1">
-
-                        <h3 class="card-title bg-pink text-black"><i class="fas fa-laptop-code"></i> The Tech</h3>
-
+                        <h3 class="card-title bg-pink text-black"><i class="fas fa-laptop-code"></i> Le Tecnologie</h3>
                         <div class="card-inner tech-list">
                             <span class="brutal-tag bg-tech-1"><i class="fas fa-code"></i> C# / .NET</span>
                             <span class="brutal-tag bg-tech-1"><i class="fab fa-python"></i> Python</span>
@@ -314,24 +183,14 @@
                             <span class="brutal-tag bg-tech-5"><i class="fab fa-microsoft"></i> Azure</span>
                             <span class="brutal-tag bg-tech-5"><i class="fab fa-git-alt"></i> Git</span>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
-
-
         <section id="journey" class="journey section-padding">
-
             <div class="container">
-
-                <h2 class="section-title reveal"><i class="fas fa-route"></i> EXPERIENCE.</h2>
-
-
+                <h2 class="section-title reveal"><i class="fas fa-route"></i> ESPERIENZA.</h2>
 
                 <div class="timeline reveal delay-1">
 
@@ -339,130 +198,89 @@
                         <div class="timeline-date brutal-badge bg-purple text-black"><i class="fas fa-calendar-alt"></i>
                             04/2026 — 06/2026</div>
                         <div class="card-inner">
-                            <h3>Full Stack Developer Intern</h3>
+                            <h3>Tirocinante Sviluppatore Full Stack</h3>
                             <p class="company"><i class="fas fa-building text-purple"></i> DESIGNET WEB AGENCY</p>
-                            <p>Developed a MERN stack ERP managing sales, purchases, inventory, and clients. Designed
-                                REST APIs, JWT authentication, and automated reporting.</p>
+                            <p>Ho sviluppato un ERP stack MERN per la gestione di vendite, acquisti, inventario e
+                                clienti. Ho progettato API REST, autenticazione JWT e reporting automatizzato.</p>
                         </div>
                     </div>
 
 
-
-
                     <div class="brutal-card bg-white timeline-item">
-
                         <div class="timeline-date brutal-badge bg-blue text-white"><i class="fas fa-calendar-alt"></i>
                             2024 — 2026</div>
-
                         <div class="card-inner">
-
-                            <h3>Computer Science Degree (BUT)</h3>
-
+                            <h3>Laurea in Informatica (BUT)</h3>
                             <p class="company"><i class="fas fa-university text-blue"></i> IUT ANNECY</p>
-
-                            <p>Deepening my expertise in software architecture, full-stack web development, and advanced
-                                relational databases.</p>
-
+                            <p>Approfondisco la mia competenza in architettura del software, sviluppo web full-stack e
+                                database relazionali avanzati.</p>
                         </div>
-
                     </div>
-
-
 
                     <div class="brutal-card bg-yellow timeline-item">
-
                         <div class="timeline-date brutal-badge bg-pink text-black"><i class="fas fa-calendar-alt"></i>
                             2023 — 2024</div>
-
                         <div class="card-inner">
-
                             <span class="brutal-badge bg-white text-black mb-2"><i
-                                    class="fas fa-trophy text-yellow"></i> 1st in Region | 26th in Paris</span>
-
-                            <h3>Backend Systems Developer</h3>
-                            <p class="company"><i class="fas fa-medal text-pink"></i> FRENCH ENGINEERING OLYMPIAD</p>
-                            <p>Developed the core backend processing for an IoT biathlon laser target.</p>
+                                    class="fas fa-trophy text-yellow"></i> 1° Regionale | 26° Nazionale</span>
+                            <h3>Sviluppatore di Sistemi Backend</h3>
+                            <p class="company"><i class="fas fa-medal text-pink"></i> OLIMPIADI DI INGEGNERIA FRANCESE
+                            </p>
+                            <p>Sviluppo del processamento backend principale per un bersaglio laser da biathlon IoT.</p>
                             <ul class="mt-2">
-                                <li><strong>Database:</strong> Architected the SQL database for efficient data storage.
-                                </li>
-                                <li><strong>Real-Time:</strong> Engineered real-time performance logs and data
-                                    processing pipelines.</li>
+                                <li><strong>Database:</strong> Progettazione del database SQL per un'archiviazione
+                                    efficiente.</li>
+                                <li><strong>Tempo reale:</strong> Sviluppo di registri delle prestazioni e pipeline di
+                                    elaborazione dati in tempo reale.</li>
                             </ul>
-
                         </div>
-
                     </div>
-
-
 
                     <div class="brutal-card bg-white timeline-item">
-
                         <div class="timeline-date brutal-badge bg-green text-white"><i class="fas fa-calendar-alt"></i>
                             2021 — 2024</div>
-
                         <div class="card-inner">
-
-                            <h3>Baccalaureate (STI2D + SIN)</h3>
-
+                            <h3>Maturità (STI2D + SIN)</h3>
                             <p class="company"><i class="fas fa-school text-green"></i> Lycée Lachenal, Argonay</p>
-
-                            <p>Information and digital systems. Graduated with honors, establishing my early logical and
-                                technical mindset.</p>
-
+                            <p>Sistemi di Informazione e Digitali. Diplomato con lode, forgiando la mia iniziale
+                                mentalità logica e tecnica.</p>
                         </div>
-
                     </div>
 
-
-
                 </div>
-
             </div>
-
         </section>
 
-
-
         <section id="projects" class="projects section-padding bg-light">
-
             <div class="container">
-
-                <h2 class="section-title reveal"><i class="fas fa-folder-open"></i> SELECTED WORK.</h2>
-
-
+                <h2 class="section-title reveal"><i class="fas fa-folder-open"></i> LAVORI SELEZIONATI.</h2>
 
                 <div class="filters reveal delay-1">
-
                     <button class="brutal-btn filter-btn active text-black" data-filter="all"><i
-                            class="fas fa-th-large"></i> ALL</button>
-
+                            class="fas fa-th-large"></i> TUTTI</button>
                     <button class="brutal-btn filter-btn bg-white text-black" data-filter="web"><i
                             class="fas fa-globe"></i> WEB / FULL STACK</button>
-
                     <button class="brutal-btn filter-btn bg-white text-black" data-filter="csharp"><i
-                            class="fas fa-desktop"></i> C# SOFTWARE</button>
-
+                            class="fas fa-desktop"></i> SOFTWARE C#</button>
                     <button class="brutal-btn filter-btn bg-white text-black" data-filter="data"><i
                             class="fas fa-database"></i> DATA</button>
-
                 </div>
-
-
 
                 <div class="project-grid reveal delay-2">
 
                     <!-- PROJECT: LUMORA -->
                     <div class="brutal-card bg-white project-card" data-category="web data">
                         <div class="project-img brutal-box">
-                            <img src="image/Lumora.svg" alt="Lumora Voice Adventure"
+                            <img src="../image/Lumora.svg" alt="Lumora Voice Adventure"
                                 style="background:var(--bg-main); padding:2rem; object-fit:contain;">
                             <div class="brutal-badge status-badge bg-yellow text-black"><i class="fas fa-sync-alt"></i>
-                                ONGOING</div>
+                                IN CORSO</div>
                         </div>
                         <div class="card-inner">
-                            <h3>Lumora - AI Voice Adventure</h3>
-                            <p>An AI-assisted voice adventure game where the player interacts entirely through speech.
-                                Multi-platform application integrating Gemini API for narrative logic.</p>
+                            <h3>Lumora - Avventura Vocale IA</h3>
+                            <p>Un gioco d'avventura assistito dall'IA in cui il giocatore interagisce interamente
+                                tramite la voce. Applicazione multipiattaforma con integrazione Gemini API per la
+                                narrativa.</p>
                             <div class="tech-stack mt-2">
                                 <span class="brutal-tag bg-blue text-white">React</span>
                                 <span class="brutal-tag bg-green text-white">Node.js</span>
@@ -484,15 +302,15 @@
                     <!-- PROJECT: ERP MERN -->
                     <div class="brutal-card bg-white project-card" data-category="web data">
                         <div class="project-img brutal-box">
-                            <img src="image/ERP.png" alt="MERN ERP System"
+                            <img src="../image/ERP.png" alt="MERN ERP System"
                                 style="object-fit:contain; background:var(--white); padding:1rem;">
-                            <div class="brutal-badge status-badge bg-yellow text-black"><i class="fas fa-check"></i>
-                                DEPLOYED</div>
+                            <div class="brutal-badge status-badge bg-white text-black"><i class="fas fa-check"></i>
+                                DISTRIBUITO</div>
                         </div>
                         <div class="card-inner">
                             <h3>Designet ERP</h3>
-                            <p>A full-stack MERN ERP covering sales, purchases, inventory, clients, and suppliers.
-                                Features Role-Based Access Control and complex dashboard analytics.</p>
+                            <p>Un ERP full-stack MERN che copre vendite, acquisti, inventario, clienti e fornitori.
+                                Include controllo degli accessi basato su ruoli e dashboard analitici complessi.</p>
                             <div class="tech-stack mt-2">
                                 <span class="brutal-tag bg-blue text-white">React</span>
                                 <span class="brutal-tag bg-green text-white">Node.js</span>
@@ -517,14 +335,14 @@
                     <!-- PROJECT: IoT Laser Target -->
                     <div class="brutal-card bg-yellow project-card" data-category="data">
                         <div class="project-img brutal-box">
-                            <img src="image/Projet 1.png" alt="IoT Laser Target - Python & Web App">
+                            <img src="../image/Projet 1.png" alt="IoT Laser Target - Python & Web App">
                             <div class="brutal-badge status-badge bg-yellow text-black"><i class="fas fa-star"></i>
-                                AWARDED</div>
+                                PREMIATO</div>
                         </div>
                         <div class="card-inner text-black">
-                            <h3>IoT Laser Target</h3>
-                            <p>Winner of the Engineering Olympiad. Connected physical hardware to a real-time web
-                                interface for biathlon performance tracking.</p>
+                            <h3>Bersaglio Laser IoT</h3>
+                            <p>Vincitore delle Olimpiadi di Ingegneria. Collegamento di hardware fisico a un'interfaccia
+                                web in tempo reale per il monitoraggio delle prestazioni nel biathlon.</p>
                             <div class="tech-stack mt-2">
                                 <span class="brutal-tag bg-pink text-black">PHP</span>
                                 <span class="brutal-tag bg-green text-white">Python</span>
@@ -533,7 +351,7 @@
                             </div>
                             <div class="project-actions mt-4">
                                 <button class="brutal-btn bg-blue text-white lightbox-trigger" data-type="video"
-                                    data-src="video/simo.mp4"><i class="fas fa-play"></i> VIDEO</button>
+                                    data-src="../video/simo.mp4"><i class="fas fa-play"></i> VIDEO</button>
                                 <a href="https://www.lycee-louis-lachenal.fr/fr/olympiades-des-sciences-de-lingenieur-2024-concours-academique-des-eleves-de-sti2d-du-lycee"
                                     target="_blank" rel="noopener noreferrer" class="brutal-btn bg-orange text-black"
                                     title="Read Article"><i class="fas fa-newspaper"></i> ARTICLE</a>
@@ -544,14 +362,14 @@
                     <!-- PROJECT: CubeBike Ecosystem -->
                     <div class="brutal-card bg-white project-card" data-category="web data">
                         <div class="project-img brutal-box">
-                            <img src="image/cube.png" alt="CubeBike Ecosystem - Vue.js & PHP">
-                            <div class="brutal-badge status-badge bg-yellow text-black"><i
-                                    class="fas fa-code-branch"></i> V2 DEPLOYED</div>
+                            <img src="../image/cube.png" alt="CubeBike Ecosystem - Vue.js & PHP">
+                            <div class="brutal-badge status-badge bg-white text-black"><i
+                                    class="fas fa-code-branch"></i> V2 DISTRIBUITA</div>
                         </div>
                         <div class="card-inner">
-                            <h3>CubeBike Ecosystem</h3>
-                            <p>High-scale university project cloning a bike manufacturer's ecosystem. Originally built
-                                with PHP/SQL, now fully modernized and deployed as a Vue.js application.</p>
+                            <h3>Ecosistema CubeBike</h3>
+                            <p>Progetto universitario su larga scala per clonare l'ecosistema di un produttore di
+                                biciclette. Costruito originariamente in PHP/SQL, ora modernizzato in un'app Vue.js.</p>
                             <div class="tech-stack mt-2">
                                 <span class="brutal-tag bg-green text-white">Vue.js</span>
                                 <span class="brutal-tag bg-pink text-black">PHP</span>
@@ -560,8 +378,8 @@
                             <div class="project-actions mt-4">
                                 <a href="https://cube-app-project-perso.vercel.app/" target="_blank"
                                     rel="noopener noreferrer" class="brutal-btn bg-yellow text-black"
-                                    title="View Modern Vue.js Version">
-                                    <i class="fas fa-rocket"></i> VUE.JS APP
+                                    title="Vedi versione Vue.js">
+                                    <i class="fas fa-rocket"></i> APP VUE.JS
                                 </a>
                                 <a href="https://github.com/Arfaoumo/API_CUBE" target="_blank" rel="noopener noreferrer"
                                     class="brutal-btn bg-yellow text-black" title="Backend Code">
@@ -577,139 +395,88 @@
                         style="display: none; grid-column: 1 / -1; min-height: 200px; opacity: 0; transform: scale(0.9); transition: all 0.3s ease-out;">
                         <div class="card-inner" style="justify-content: center; align-items: center;">
                             <h3 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 10px;"><i
-                                    class="fas fa-tools text-yellow"></i> WORK IN PROGRESS</h3>
-                            <p style="font-weight: 500;">I am still adding my C# projects here. Stay tuned!</p>
+                                    class="fas fa-tools text-yellow"></i> LAVORO IN CORSO</h3>
+                            <p style="font-weight: 500;">Sto ancora aggiungendo i miei progetti C# qui. Restate
+                                sintonizzati!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-
         <section id="contact" class="contact section-padding">
-
             <div class="container">
-
                 <div class="contact-grid">
-
                     <div class="contact-info reveal">
-
-                        <h2 class="massive-title"><span class="bg-yellow text-black brutal-highlight">LET'S TALK.</span>
+                        <h2 class="massive-title"><span class="bg-yellow text-black brutal-highlight">PARLIAMO.</span>
                         </h2>
-
-                        <p class="mt-4 lead-text">I'm always open to discussing new opportunities, web architectures, or
-                            freelance projects.</p>
-
-
+                        <p class="mt-4 lead-text">Sono sempre aperto a discutere di nuove opportunità, architetture web
+                            o progetti freelance.</p>
 
                         <div class="social-links mt-4">
-
                             <a href="mailto:yassin.arfaouii@gmail.com" class="brutal-box bg-white"
-                                aria-label="Send an Email to Mohamed"><i class="fas fa-envelope"></i></a>
-
-
-
+                                aria-label="Invia un'email a Mohamed"><i class="fas fa-envelope"></i></a>
                             <a href="https://github.com/Arfaoumo" target="_blank" class="brutal-box bg-white"
-                                aria-label="View Mohamed's GitHub Profile"><i class="fab fa-github"></i></a>
-
+                                aria-label="Guarda il profilo GitHub di Mohamed"><i class="fab fa-github"></i></a>
                             <a href="https://www.linkedin.com/in/mohamed-y-arfaoui" target="_blank"
-                                class="brutal-box bg-blue text-white" aria-label="View Mohamed's LinkedIn Profile"><i
+                                class="brutal-box bg-blue text-white"
+                                aria-label="Guarda il profilo LinkedIn di Mohamed"><i
                                     class="fab fa-linkedin-in"></i></a>
-
                         </div>
-
                     </div>
 
-
-
                     <div class="contact-form-wrap reveal delay-1">
-
-                        <!-- Change the action URL to Web3Forms -->
                         <form id="contactForm" action="https://api.web3forms.com/submit" method="POST"
                             class="brutal-card bg-white">
                             <div class="card-inner">
-
-                                <!-- Replace the FormSubmit captcha with your Web3Forms Access Key -->
                                 <input type="hidden" name="access_key" value="0f088dba-8575-41bc-ab8f-24520460ff1c">
-
                                 <div class="input-brutal">
-                                    <label><i class="fas fa-user"></i> NAME</label>
+                                    <label><i class="fas fa-user"></i> NOME</label>
                                     <input type="text" name="name" required>
                                 </div>
-
                                 <div class="input-brutal">
                                     <label><i class="fas fa-at"></i> EMAIL</label>
                                     <input type="email" name="email" required>
                                 </div>
-
                                 <div class="input-brutal">
-                                    <label><i class="fas fa-comment-dots"></i> MESSAGE</label>
+                                    <label><i class="fas fa-comment-dots"></i> MESSAGGIO</label>
                                     <textarea name="message" rows="4" required></textarea>
                                 </div>
-
                                 <button type="submit" class="brutal-btn bg-yellow text-black w-full mt-2"><i
-                                        class="fas fa-paper-plane"></i> SEND MESSAGE</button>
+                                        class="fas fa-paper-plane"></i> INVIA MESSAGGIO</button>
                                 <p id="form-status" class="mt-2 text-center font-bold" aria-live="polite"></p>
                             </div>
                         </form>
-
                     </div>
-
                 </div>
-
             </div>
-
         </section>
-
     </main>
 
-
-
     <footer class="brutal-footer bg-white border-top">
-
         <div class="container footer-inner">
-
             <h2 class="logo"><i class="fas fa-terminal text-blue"></i> MOHAMED.A</h2>
-
-            <p>&copy; 2026 Mohamed Arfaoui. Built with HTML, CSS & JS.</p>
-
+            <p>&copy; 2026 Mohamed Arfaoui. Realizzato con HTML, CSS & JS.</p>
         </div>
-
     </footer>
 
-
-
-    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery">
-
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Galleria di immagini">
         <div class="lightbox-overlay"></div>
-
-        <button class="close-btn brutal-box bg-yellow" title="Close" aria-label="Close modal"><i
+        <button class="close-btn brutal-box bg-yellow" title="Chiudi" aria-label="Chiudi modale"><i
                 class="fas fa-times"></i></button>
-
-        <button class="nav-btn prev-btn brutal-box bg-white" id="prevBtn" aria-label="Previous image"><i
+        <button class="nav-btn prev-btn brutal-box bg-white" id="prevBtn" aria-label="Immagine precedente"><i
                 class="fas fa-chevron-left"></i></button>
-
         <div class="lightbox-content">
-
-            <img id="lightbox-img" src="" alt="Zoom preview" class="brutal-box bg-white p-1">
-
+            <img id="lightbox-img" src="" alt="Anteprima zoom" class="brutal-box bg-white p-1">
             <video id="lightbox-video" controls style="display:none;" class="brutal-box bg-white p-1"></video>
-
         </div>
-
-        <button class="nav-btn next-btn brutal-box bg-white" id="nextBtn" aria-label="Next image"><i
+        <button class="nav-btn next-btn brutal-box bg-white" id="nextBtn" aria-label="Immagine successiva"><i
                 class="fas fa-chevron-right"></i></button>
-
     </div>
 
-
-
     <div class="cursor-dot"></div>
-
     <div class="cursor-ring"></div>
-
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 
 </body>
 
