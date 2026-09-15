@@ -1,0 +1,35 @@
+{
+  "name": "mohamed-spatial-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src",
+    "format": "prettier --write src index.html *.json *.ts *.js .github/workflows/*.yml README.md",
+    "format:check": "prettier --check src index.html *.json *.ts *.js .github/workflows/*.yml README.md"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans-condensed": "^5.2.5",
+    "@fontsource/instrument-serif": "^5.2.5",
+    "gsap": "^3.13.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.31.0",
+    "vite": "^6.3.0"
+  }
+}

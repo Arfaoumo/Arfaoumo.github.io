@@ -1,0 +1,18 @@
+node_modules/
+dist/
+legacy/
+qa/screenshots/
+test-results/
+*.tsbuildinfo
+
+# Local settings, secrets and generated reports
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+playwright-report/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
